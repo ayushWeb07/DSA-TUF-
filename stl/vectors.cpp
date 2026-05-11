@@ -41,5 +41,12 @@ int main() {
         cout << ele << " ";
     }
 
+    cout << endl;
+
+    // reverse display approach
+    for (auto it3= vec.rbegin(); it3!= vec.rend(); it3++) {
+        cout << *it3 << " ";
+    }
+
     return 0;
 }
