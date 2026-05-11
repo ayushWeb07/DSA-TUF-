@@ -34,5 +34,12 @@ int main() {
         cout << *it2 << " ";
     }
 
+    cout << endl;
+
+    // display approach 4
+    for (auto ele: vec) {
+        cout << ele << " ";
+    }
+
     return 0;
 }
