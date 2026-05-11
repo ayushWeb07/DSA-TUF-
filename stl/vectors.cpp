@@ -48,5 +48,8 @@ int main() {
         cout << *it3 << " ";
     }
 
+    // get the front and back elements
+    cout << endl << vec.front() << " " << vec.back();
+
     return 0;
 }
