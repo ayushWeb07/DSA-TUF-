@@ -40,5 +40,21 @@ int main() {
         cout << "Search succeeded";
     }
 
+    // 5: next permutation
+    string st1= "abc";
+
+    cout << endl << endl << "Next permutations: ";
+    do {
+        cout << st1 << " ";
+    } while (next_permutation(st1.begin(), st1.end()));
+
+    // 6: prev permutation
+    string st2= "cba";
+
+    cout << endl << endl << "Prev permutations: ";
+    do {
+        cout << st2 << " ";
+    } while (prev_permutation(st2.begin(), st2.end()));
+
     return 0;
 }
