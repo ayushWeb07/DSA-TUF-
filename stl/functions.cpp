@@ -56,5 +56,25 @@ int main() {
         cout << st2 << " ";
     } while (prev_permutation(st2.begin(), st2.end()));
 
+    // 7: max & min element
+    auto max_it= max_element(vec.begin(), vec.end());
+    auto min_it= min_element(vec.begin(), vec.end());
+
+    cout << endl << endl << "Max: " << *max_it;
+    cout << endl << "Min: " << *min_it;
+
+    // 8: reverse
+    cout << endl << endl << "Before reversing: ";
+    for (int i=0; i<vec.size(); i++) {
+        cout << vec[i] << " ";
+    }
+
+    reverse(vec.begin(), vec.end());
+
+    cout << endl << "After reversing: ";
+    for (int i=0; i<vec.size(); i++) {
+        cout << vec[i] << " ";
+    }
+
     return 0;
 }
