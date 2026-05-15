@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// approach 1: O(log10(n))
+// approach 1: TC - O(log10(n)) | SC - O(log10(n))
 class Solution1 {
 public:
     int countDigit(int n) {
@@ -10,7 +10,7 @@ public:
     }
 };
 
-// approach 2: O(log10(n))
+// approach 2: O(log10(n)) | SC - O(log10(n))
 class Solution2 {
 public:
     int count(int n) {

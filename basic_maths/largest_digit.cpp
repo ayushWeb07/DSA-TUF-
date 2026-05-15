@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// approach: O(log10(n))
+// approach: TC - O(log10(n)) | SC - O(1)
 class Solution {
 public:
     int largestDigit(int n) {
