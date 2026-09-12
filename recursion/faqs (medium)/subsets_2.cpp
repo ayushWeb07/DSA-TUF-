@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// TC - O(n * 2^n),| SC - O(n)
+// TC - O(n * 2^n) | SC - O(n)
 class Solution {
 public:
     void buildAns(vector<int>& nums, int n, int idx, vector<int>& lst, vector<vector<int>>& ans) {
