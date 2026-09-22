@@ -14,7 +14,7 @@ class ListNode{
 };
 */
 
-// Better apporoach: TC - O(n) | SC: O(n)
+// Better approach: TC - O(n) | SC: O(n)
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* &head) {
@@ -46,7 +46,7 @@ public:
     }
 };
 
-// optimal apporoach: TC - O(n) | SC: O(1)
+// optimal approach: TC - O(n) | SC: O(1)
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* &head) {
