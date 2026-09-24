@@ -26,7 +26,7 @@ struct ListNode
 };
 */
 
-// bruteforce -> TC: O(n) | SC: O(1)
+// bruteforce -> TC: O(3 * n) | SC: O(1)
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
